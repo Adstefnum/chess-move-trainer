@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import Board from './components/Board';
 
 const Game = () => {
+
+  function handleMovePiece(){
+    //
+  }
  const squares = [];
 
 for (let i = 0; i < 64; i++) {
